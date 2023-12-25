@@ -1,0 +1,40 @@
+[package]
+registry = "https://github.com/UpliftGames/wally-index"
+name = "suit-up/littlest-pet-shop"
+version = "0.1.0"
+realm = "shared"
+private = true
+
+[dependencies]
+# Core
+Promise = "evaera/promise@4.0.0"
+Import = "vocksel/import@2.1.0"
+Knit = "sleitnick/knit@1.5.3"
+# Analytics
+GameAnalytics = "gameanalytics/gameanalytics-sdk@2.2.3"
+# RbxUtil
+TableUtil = "sleitnick/table-util@1.2.1"
+Component = "sleitnick/component@2.4.8"
+Observers = "sleitnick/observers@0.3.3"
+WaitFor = "sleitnick/wait-for@1.0.0"
+Signal = "sleitnick/signal@2.0.1"
+Option = "sleitnick/option@1.0.5"
+Trove = "sleitnick/trove@1.1.0"
+Shake = "sleitnick/shake@0.1.7"
+Input = "sleitnick/input@2.2.1"
+Timer = "sleitnick/timer@1.1.2"
+# State Management
+Reflex = "littensy/reflex@4.2.2"
+# UI
+Fusion = "elttob/fusion@0.2.0"
+# Typechecking
+t = "osyrisrblx/t@3.0.0"
+# ZonePlus
+Zone = "mattschrubb/zoneplus@3.2.0"
+# Spring (for animations)
+spr = "artisticvampyre/spr@2.1.1"
+
+# Todo: Add these to the index
+# Ratelimit = "red-blox/ratelimit@^1.0.0"
+# Guard = "red-blox/guard@^1.0.0"
+# Fetch = "red-blox/fetch@^2.0.0"
